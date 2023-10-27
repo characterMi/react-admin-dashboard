@@ -11,6 +11,7 @@ import Products from "./pages/Products/Products";
 import User from "./pages/User/User";
 import Product from "./pages/Product/Product";
 import Login from "./pages/Login/Login";
+import menu from "../public/menu.svg"
 
 function App() {
   const [open, setOpen] = useState(false)
@@ -30,7 +31,7 @@ function App() {
         <div className="container">
           <div className='menu-container'>
             <Menu />
-            <img src="/public/menu.svg" alt="menu" className="menu-toggle" onClick={toggleMenu} />
+            <img src={menu} alt="menu" className="menu-toggle" onClick={toggleMenu} />
           </div>
           <div className="content-container">
             <Outlet />
