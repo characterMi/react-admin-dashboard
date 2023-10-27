@@ -1,7 +1,0 @@
-export { default as Home } from "./Home/Home"
-export { default as Profile } from "./Profile/Profile"
-export { default as Users } from "./Users/Users"
-export { default as User } from "./User/User"
-export { default as Products } from "./Products/Products"
-export { default as Product } from "./Product/Product"
-export { default as Login } from "./Login/Login"

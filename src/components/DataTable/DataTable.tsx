@@ -5,7 +5,7 @@ import { useState } from "react"
 
 type Props = {
   columns: GridColDef[];
-  rows: object[];
+  rows: any[];
 }
 
 const DataTable = (props: Props) => {

@@ -1,4 +1,4 @@
-import { Single } from '../../components'
+import Single from '../../components/Single/Single'
 import { profile } from '../../data/data'
 
 const Profile = () => (

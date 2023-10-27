@@ -1,8 +1,16 @@
-import { Home, Users, Products, Login, User, Product, Profile } from "./pages"
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"
-import { Navbar, Menu, Footer } from "./components";
 import "./styles/global.scss";
 import { useEffect, useState } from "react";
+import Navbar from "./components/Navbar/Navbar";
+import Menu from "./components/Menu/Menu";
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
+import Profile from "./pages/Profile/Profile";
+import Users from "./pages/Users/Users";
+import Products from "./pages/Products/Products";
+import User from "./pages/User/User";
+import Product from "./pages/Product/Product";
+import Login from "./pages/Login/Login";
 
 function App() {
   const [open, setOpen] = useState(false)

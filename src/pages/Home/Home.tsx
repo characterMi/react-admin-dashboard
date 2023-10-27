@@ -1,4 +1,8 @@
-import { TopBox, ChartBox, PieChartBox, BarChartBox, BigChartBox } from "../../components"
+import BarChartBox from "../../components/BarChartBox/BarChartBox"
+import BigChartBox from "../../components/BigChartBox/BigChartBox"
+import ChartBox from "../../components/ChartBox/ChartBox"
+import PieChartBox from "../../components/PieChartBox/PieChartBox"
+import TopBox from "../../components/TopBox/TopBox"
 import { barChartBoxRevenue, barChartBoxVisit, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from "../../data/data"
 import "./home.scss"
 

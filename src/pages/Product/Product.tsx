@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
-import { Single } from '../../components'
 import { productsStatistics } from '../../data/data'
+import Single from '../../components/Single/Single'
 
 const Product = () => {
   const { id }: any = useParams()

@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom'
-import { Single } from '../../components'
+import Single from '../../components/Single/Single'
 import { usersInformation } from '../../data/data'
 
 const User = () => {

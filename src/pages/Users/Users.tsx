@@ -1,7 +1,8 @@
-import { DataTable, Add } from "../../components";
 import { GridColDef } from "@mui/x-data-grid"
 import "./users.scss"
 import { userRows } from "../../data/data";
+import DataTable from "../../components/DataTable/DataTable";
+import Add from "../../components/Add/Add";
 
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 50 },
