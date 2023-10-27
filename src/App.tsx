@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"
 import "./styles/global.scss";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Menu from "./components/Menu/Menu";
 import Footer from "./components/Footer/Footer";
@@ -15,14 +15,9 @@ import menu from "../public/menu.svg"
 
 function App() {
   const [open, setOpen] = useState(false)
-  const [isMenuActive, setIsMenuActive] = useState(true)
   const toggleMenu = () => {
-    setIsMenuActive(!isMenuActive);
+    document.querySelector('.menu-container')?.classList.toggle('active')
   }
-  useEffect(() => {
-    isMenuActive && document.querySelector('.menu-container')?.classList.add('active')
-    !isMenuActive && document.querySelector('.menu-container')?.classList.remove('active')
-  }, [isMenuActive])
 
   const Layout = () => {
     return (
