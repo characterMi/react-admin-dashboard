@@ -1,0 +1,19 @@
+.users {
+
+    .info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 20px;
+
+        button {
+            padding: 5px 15px;
+            background-color: rgb(135, 163, 173);
+            border: none;
+            outline: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
