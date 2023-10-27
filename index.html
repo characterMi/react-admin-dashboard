@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="description" content="Lama Dev Admin Dashboard" />
     <title>React Admin Dashboard</title>
     <link
@@ -14,5 +14,8 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script> 
+      document.body.addEventListener(“wheel”, (e) => { if(e.ctrlKey) e.preventDefault() }); 
+    </script>
   </body>
 </html>
