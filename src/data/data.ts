@@ -317,7 +317,7 @@ export const barChartBoxVisit = {
 export const profile = {
     id: 1,
     title: "Abolfazl Taghadosi",
-    img: "/public/avatar.svg",
+    img: "/avatar.svg",
     info: {
         username: "character.mi",
         fullname: "Abolfazl Taghadosi",
