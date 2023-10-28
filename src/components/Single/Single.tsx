@@ -25,8 +25,8 @@ const Single = (props: Props) => {
           </div>
           <div className="details">
             {Object.entries(props.info).map((item, index) => (
-              <div className="item" key={item[0]}>
-                <span className="item-title">{index}</span>
+              <div className="item" key={index}>
+                <span className="item-title">{item[0]}</span>
                 <span className="item-value">{item[1]}</span>
               </div>
             ))}
