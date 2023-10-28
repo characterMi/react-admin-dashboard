@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"
+import { createHashRouter, RouterProvider, Outlet } from "react-router-dom"
 import "./styles/global.scss";
 import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
@@ -36,7 +36,7 @@ function App() {
       </main>
     )
   }
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <Layout />,
