@@ -7,6 +7,17 @@
   box-sizing: border-box;
 }
 
+*::-webkit-scrollbar {
+  background-color: #222b3c;
+  border-radius: 100px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #384256;
+  border-radius: 100px;
+  box-shadow: inset 0 0 50px #ffffff38;
+}
+
 body {
   background-color: $main-bg;
   zoom: 100%;
