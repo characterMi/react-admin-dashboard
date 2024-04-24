@@ -26,15 +26,15 @@
 
 <ul>
     <li>
-        <img src="https://github.com/characterMi/characterMi/raw/main/technologies/icons8-html.svg" alt="HTML" />
+        <img src="https://github.com/characterMi/characterMi/raw/main/images/technologies/icons8-html.svg" alt="HTML" />
     </li>
     <li>
-        <img src="https://github.com/characterMi/characterMi/raw/main/technologies/icons8-sass.svg" alt="Sass" />
+        <img src="https://github.com/characterMi/characterMi/raw/main/images/technologies/icons8-sass.svg" alt="Sass" />
     </li>
     <li>
-        <img src="https://github.com/characterMi/characterMi/raw/main/technologies/icons8-typescript.svg" alt="TypeScript" />
+        <img src="https://github.com/characterMi/characterMi/raw/main/images/technologies/icons8-typescript.svg" alt="TypeScript" />
     </li>
     <li>
-        <img src="https://github.com/characterMi/characterMi/raw/main/technologies/icons8-react-native.svg" width="46" height="46" alt="React" />
+        <img src="https://github.com/characterMi/characterMi/raw/main/images/technologies/icons8-react-native.svg" width="46" height="46" alt="React" />
     </li>
 </ul>
